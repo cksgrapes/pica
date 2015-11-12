@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+html, body {
+	background: #fdfdfd url('../img/bg.gif') repeat-y center top;
+	/*font: 13px/1.6 'MS P Gothic', 'ＭＳ Ｐゴシック', sans-serif;*/
+	font: 13px/1.6 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', 'MS P Gothic', 'ＭＳ Ｐゴシック', sans-serif;
+	color: #666;
+}
+a {
+	text-decoration: none;
+	color: #c0392b;
+}
+a:hover {
+	filter:alpha(opacity=50);
+	opacity:0.5;
+}
+img {
+	vertical-align: inherit;
+}

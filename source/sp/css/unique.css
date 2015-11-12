@@ -1,0 +1,170 @@
+@charset "utf-8";
+
+.search-result {
+	font-size: 0.85rem;
+}
+
+.post-list-text a h2 {
+	font-size: 1.7rem;
+}
+.post-list-text p,
+.post-list-text ul {
+	color: #666;
+}
+.post-list-text ul {
+	margin-top: 5px;
+	font-size: 0.85rem;
+	color: #999;
+}
+
+.post-list-tweet p {
+	font-size: 1.17rem;
+}
+
+.post-list-pic a h2 {
+	font-size: 1.34rem;
+}
+.post-list-pic img {
+	float: left;
+	width: 80px;
+}
+.post-list-pic .inner {
+	margin-left: 100px;
+}
+.post-list-pic p,
+.post-list-pic ul {
+	color: #666;
+}
+.post-list-pic ul {
+	margin-top: 5px;
+	font-size: 0.85rem;
+	color: #999;
+}
+
+.text-single-area {
+	padding-bottom: 40px;
+	font-size: 1.17rem;
+}
+.text-single-area p {
+	margin-bottom: 1.5rem;
+}
+.text-single-area p:last-child {
+	margin-bottom: 0;
+}
+.my-comment {
+	margin-top: 40px;
+	font-size: 1rem;
+	color: #999;
+}
+
+.page-content {
+	padding-bottom: 40px;
+	font-size: 1.17rem;
+}
+.page-content p {
+	margin-bottom: 1.17rem;
+}
+.page-content .author-name {
+	font-size: 1.34rem;
+	font-weight: bold;
+}
+.page-content .author-name span {
+	font-size: 1.17rem;
+}
+.page-content dl {
+	margin-top: 20px;
+}
+.page-content dt {
+	padding: 10px 0;
+	border-top: 1px solid #e3e3e3;
+	border-bottom: 1px solid #e3e3e3;
+	font-weight: bold;
+}
+.page-content dd {
+	padding: 10px;
+}
+.page-content dd .gray-box {
+	padding: 10px;
+}
+
+.wikipediaLogo,
+.wikipediaThumbGallery,
+.wikipediaInfoTable {
+	display: none;
+}
+.wikipediaTitle {
+	margin-bottom: 10px;
+	padding: 10px;
+	background: #fdfdfd;
+	border: 1px solid #e3e3e3;
+	text-align: center;
+}
+
+.search-box .select {
+	position: relative;
+}
+.search-box .select .btn {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 48px;
+	height: 48px;
+	background: #fafafa;
+	border: 1px solid #e3e3e3;
+	border-radius: 0 6px 6px 0 / 0 6px 6px 0;
+	line-height: 50px;
+	text-align: center;
+	font-size: 1.5rem;
+}
+.search-box select{
+	-webkit-appearance: button;
+	-moz-appearance: button;
+	appearance: button;
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	background:url(arrow.png) no-repeat;
+	background-size:40px 60px;
+	background-position: right center;
+	border: 1px solid #e3e3e3;
+	border-radius:6px;
+	font-size: 1.17rem;
+	text-indent: 1em;
+	cursor: pointer;
+}
+
+.search-box .keyword {
+	margin: 10px 0;
+	padding: 0 10px;
+	height: 50px;
+	background: #fafafa;
+	line-height: 50px;
+	border: 1px solid #e3e3e3;
+	border-radius: 6px;
+	display: block;
+}
+.search-box .keyword input {
+	width: 100%;
+	background: transparent;
+	border: none;
+	font-size: 1.17rem;
+}
+.search-box .submit input {
+	-webkit-appearance: button;
+	-moz-appearance: button;
+	appearance: button;
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	background: #c0392b;
+	border: none;
+	border-radius: 6px;
+	font-size: 1.17rem;
+	color: #fdfdfd;
+}
+
+.postsNav {
+	margin-top: 20px;
+	text-align: center;
+	font-size: 1.2rem;
+}

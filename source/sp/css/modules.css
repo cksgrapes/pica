@@ -1,0 +1,33 @@
+@charset "utf-8";
+
+.wrap {
+	display: block;
+	padding: 20px;
+	border-bottom: 1px solid #e3e3e3;
+}
+.gray-box {
+	padding: 20px;
+	background: #fafafa;
+	border: 1px solid #e3e3e3;
+}
+.gototop {
+	padding: 20px;
+	text-align: right;
+}
+.gototop-bd {
+	padding: 20px;
+	text-align: right;
+	border-bottom: 1px solid #e3e3e3;
+}
+.ttl-large {
+	padding: 40px 20px 20px;
+	font-weight: bold;
+	font-size: 1.5rem;
+	text-align: center;
+}
+
+/*********************************
+    Clearfix
+*********************************/
+#header .global-menu, .post-list-pic a { zoom: 1; }
+#header .global-menu:after, .post-list-pic a:after { content: ""; }

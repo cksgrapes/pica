@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+html, body {
+	background: #fdfdfd url('../img/bg.gif') repeat-y center top;
+	font: 12px/1.8 ArialMT, "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", メイリオ, sans-serif;
+	color: #666;
+	-webkit-text-size-adjust: none;
+}
+a {
+	text-decoration: none;
+	color: #c0392b;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+img {
+	vertical-align: inherit;
+}

@@ -1,0 +1,131 @@
+@charset "utf-8";
+
+/* ----- #attention ----- */
+#attention {
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #000;
+	background-color: rgba(0,0,0,0.95);
+	z-index: 200;
+}
+#attention .inner {
+	width: 480px;
+	height: 400px;
+	color: #fff;
+}
+#siteIn {
+	cursor: pointer;
+}
+
+/* ----- Wikipedia Widget ----- */
+.wikipediaLogo,
+.wikipediaThumbGallery,
+.wikipediaInfoTable {
+	display: none;
+}
+.wikipediaTitle {
+	margin-bottom: 10px;
+	padding: 10px;
+	background: #fdfdfd;
+	border: 1px solid #e3e3e3;
+	text-align: center;
+}
+
+/* ----- Contact Form 7 ----- */
+#mailform {
+	background: #fdfdfd;
+	color: #666;
+}
+#mailform .wpcf7 {
+	width: 400px;
+	margin: 30px auto;
+}
+#mailform .wpcf7 input,
+#mailform .wpcf7 textarea {
+	width: 100%;
+	font-family: inherit;
+	font-size: inherit;
+	color: inherit;
+}
+#mailform .wpcf7 p {
+	margin-bottom: 1em;
+}
+#mailform .wpcf7 .wpcf7-submit {
+	display: block;
+	width: 50%;
+	margin: 0 auto;
+}
+#mailform .wpcf7-not-valid-tip-no-ajax {
+	color: #999;
+}
+
+/* ----- 「この記事を編集」リンク ----- */
+div.post-edit-link {
+	width: 880px;
+	background: #fafafa;
+	padding: 20px 40px;
+	text-align: center;
+}
+
+/* ----- コメントフォーム ----- */
+.comments-area {
+	font-size: 14px;
+}
+#commentform {
+	margin-bottom: 20px;
+}
+#author {
+	display: inline-block;
+	width: 100px;
+	padding: 10px;
+	background: #fafafa;
+	border: 1px solid #e3e3e3;
+	border-radius: 6px;
+	outline: 0;
+	font-family: inherit;
+	font-size: inherit;
+	color: inherit;
+}
+#commentform .comment-form-author {
+	width: 122px;
+	margin-right: 4px;
+	display: inline-block;
+}
+#comment {
+	width: 634px;
+	margin-right: 4px;
+	padding: 10px;
+	background: #fafafa;
+	border: 1px solid #e3e3e3;
+	border-radius: 6px;
+	outline: 0;
+	font-family: inherit;
+	font-size: inherit;
+	color: inherit;
+}
+#commentform .form-submit {
+	width: 80px;
+	display: inline-block;
+}
+#submit {
+	width: 70px;
+	padding: 10px;
+	background: #c0392b;
+	border: 1px solid #c0392b;
+	border-radius: 6px;
+	font-family: inherit;
+	font-size: inherit;
+	color: #fdfdfd;
+	outline: 0;
+}
+.comment-list li * {
+	display: inline-block;
+}
+.comment-list li span {
+	font-size: 12px;
+	color: #999;
+}

@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+/*********************************
+    header
+*********************************/
+#header h1 {
+	padding: 20px;
+	text-align: center;
+}
+#header .global-menu {
+	background: #fafafa;
+	border-top: 1px solid #e3e3e3;
+	border-bottom: 1px solid #e3e3e3;
+}
+#header .global-menu li {
+	float: left;
+	width: 33.3%;
+	height: 40px;
+}
+#header .global-menu li:nth-child(2) {
+	width: 33.4%;
+}
+#header .global-menu li:nth-child(2) div {
+	border-left: 1px solid #e3e3e3;
+	border-right: 1px solid #e3e3e3;
+}
+#header .global-menu li a {
+	display: block;
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	font-size: 1.7rem;
+}
+
+/*********************************
+    contents
+*********************************/
+
